@@ -67,6 +67,10 @@ end
 #bootstrap gem suggested by Michael
 gem 'bootstrap-sass', '3.3.7'
 
+#jquery etc for bootstrap
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'rails-ujs', '~> 0.1.0'
+
 #password bcrypt suggested by Michael
 gem 'bcrypt',         '3.1.12'  # need to brew install bcrypt before this works
 
